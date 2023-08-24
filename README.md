@@ -59,6 +59,7 @@ python3 ./run.py
 test the API (in virtualenv)
 ```bash
 addok shell --conf addok.conf
+# OR
 addok serve --conf addok.conf
-curl "http://127.0.0.1:7878/search/?q=epinay+sur+seine"
+curl "http://127.0.0.1:7878/search/?q=epinay+sur+seine" # In another terminal
 ```
